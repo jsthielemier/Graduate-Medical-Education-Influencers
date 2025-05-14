@@ -6,3 +6,23 @@
 .httr-oauth
 .DS_Store
 .quarto
+
+# Ignore large Medicare cost report files
+HOSP10_2022_*.CSV
+*.CSV
+*.RData
+*.rds
+*.zip
+*.tar
+*.gz
+*.xlsx
+
+# Ignore temporary and system files
+.Rhistory
+.Rproj.user/
+.DS_Store
+Thumbs.db
+
+# Ignore RStudio project settings (optional)
+*.Rproj
+
